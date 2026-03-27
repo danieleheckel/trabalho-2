@@ -1,8 +1,7 @@
 void main() {
-  String? apelido;
-
+  String? apelido = null;  
   if (apelido == null) {
-    print("Nenhum apelido cadastrado");
+    print('😢 "Nenhum apelido cadastrado"');
   } else {
     print(apelido);
   }
